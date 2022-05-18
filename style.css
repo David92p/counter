@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+    background-color: #f69393;
+    height: 100vh;
+}
+
+.box-counter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+    height: 500px;
+    width: 500px;
+    background-color: rgb(129, 192, 129);
+    border-radius: 20px;
+    border: 3px solid red;
+}
+
+.container-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title,
+.welcome{
+    font-size: 40px;
+    justify-content: center;
+    border: 1px solid red;
+}
+
