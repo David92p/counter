@@ -1,1 +1,3 @@
 # counter
+
+ ![Screenshot](screenshot.png) 
