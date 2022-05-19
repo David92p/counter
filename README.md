@@ -7,3 +7,21 @@
 <a href="https://github.com/David92p/counter">About The Project</a>
 
 The project allows to put into practice the basic knowledge of Js. By studying the manipulation of the Dom, we have created a simple app but also fun. We didn't miss some good graphics that will come in handy.
+
+### Built With
+
+* HTML
+* CSS
+* JS
+
+
+## Contact
+
+Email: dave.panetta92@gmail.com
+
+Website: <a href="https://david92p.github.io/DavidPanetta/">David Panetta</a>
+
+Project Link: <a href="https://david92p.github.io/counter/">Counter</a>
+
+
+### Built with love and passion fueled by the course of study at Start2Impact :heart:
