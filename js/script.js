@@ -1,10 +1,43 @@
 
-let name = prompt('Hello! What\'s your name? ', '')
+// Creating html elements dynamically
+let containerCounter = document.querySelector('.container-counter')
+let containerControl = document.querySelector('.container-control')
+
+let createElement = ((tag, className, content) => {
+    let newEl = document.createElement(tag)
+    newEl.innerHTML = content
+    newEl.classList.add(className)
+    newEl.setAttribute('id', className)
+    return newEl
+});
+
+containerCounter.appendChild(createElement('h1', 'counter', 0))
+
+containerControl.appendChild(createElement('button', 'increment', '+'))
+containerControl.appendChild(createElement('button', 'reset', 'Reset'))
+containerControl.appendChild(createElement('button', 'decrement', '-'))
+
+
+///////////////////////////////////////////////////////////////////////////////////
+
+let visitor = prompt('Hello! What\'s your name? ', '')
+
+// We will cut the entered name if it is necessary for reasons of space
+while (true){
+    if (visitor.length > 10){
+        visitor = visitor.slice(0, 10)
+    }
+    break
+}
+
 let welcome = document.getElementById('welcome')
 
-let regards = `Welcome ${name}! `
+let regards = `Welcome ${visitor}! `
 
 welcome.textContent += regards
+
+
+////////////////////////////////////////////////////////////////////////////////////
 
 
 let increment = document.getElementById("increment");
