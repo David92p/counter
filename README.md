@@ -21,7 +21,7 @@ Email: dave.panetta92@gmail.com
 
 Website: <a href="https://david92p.github.io/DavidPanetta/">David Panetta</a>
 
-Project Link: <a href="https://david92p.github.io/counter/">Counter</a>
+Project Link: <a href="https://counter-app-s2i.netlify.app/">Counter</a>
 
 
 ### Built with love and passion fueled by the course of study at Start2Impact :heart:
