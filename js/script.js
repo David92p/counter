@@ -20,14 +20,12 @@ containerControl.appendChild(createElement('button', 'decrement', '-'))
 
 ///////////////////////////////////////////////////////////////////////////////////
 
+
 let visitor = prompt('Hello! What\'s your name? ', '')
 
 // We will cut the entered name if it is necessary for reasons of space
-while (true){
-    if (visitor.length > 10){
-        visitor = visitor.slice(0, 10)
-    }
-    break
+if (visitor.length > 10){
+    visitor = visitor.slice(0, 10)
 }
 
 let welcome = document.getElementById('welcome')
